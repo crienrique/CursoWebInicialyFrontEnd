@@ -41,11 +41,6 @@ h2 {
     opacity: 1;
 }
 
-.mapa iframe{
-    width: 100px;
-    aspect-ratio: 1.2;
-}
-
 html {
     scroll-behavior: smooth;
 }
