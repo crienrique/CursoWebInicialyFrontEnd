@@ -1,0 +1,66 @@
+/*font-family: 'Alfa Slab One', cursive;*/
+
+footer {
+    background-color: gray;
+}
+h1,
+h2 {
+    font-family: 'alfa slab one', cursive;
+}
+.hero {
+    background: url(../images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: white;
+}
+
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.testimonios {
+    background-color: rgb(203, 195, 195);
+    padding-bottom: 4rem !important;
+
+}
+
+.testimonio {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+.staff {
+    background-color: rgb(169, 155, 136);
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a{
+    background-color: white;
+    font-family: 'alfa slab one', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: gray;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 0.9;
+}
